@@ -1,5 +1,16 @@
 For additional details on features, see the full [Azure Data Factory Release Notes](https://azure.microsoft.com/en-us/documentation/articles/data-factory-release-notes). 
 
+## Version 4.12.0
+
+### Feature Additions
+
+* The following linked service types have been added:
+    * AzureSearchLinkedService
+* The following dataset types have been added:
+    * AzureSearchIndexDataset
+* The following copy sink types have been added:
+    * AzureSearchIndexSink
+
 ## Version 4.11.0
 _Release date: 2016.09.13_ 
 

@@ -534,5 +534,21 @@ namespace DataFactory.Tests.Framework.JsonSamples
         }
     }
 }";
+
+        [JsonSample]
+        public const string AzureSearchLinkedService = @"
+{
+    name: ""LinkedService-AzureSearch"",
+    properties:
+    {
+        type: ""AzureSearch"",
+        description: ""test description"",
+        typeProperties:
+        {
+            url : ""https://test.search.windows.net"", 
+            key: ""fake key""
+        }
+    }
+}";
     }
 }
